@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Elena:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Elena_jar</output-path>
+    <root id="archive" name="Elena.jar">
+      <element id="module-output" name="Elena" />
+    </root>
+  </artifact>
+</component>
