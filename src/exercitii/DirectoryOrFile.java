@@ -1,12 +1,18 @@
 package exercitii;
+import turism.Application;
+
 import java.io.File;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class DirectoryOrFile {
     public static void directoryOrFile() {
         while (true) {
 
-        System.out.println("Introduceti un fisier:");
+            Main m = new Main();
+
+
+            System.out.println("Introduceti un fisier:");
 
             Scanner keyboard = new Scanner(System.in);
             File files = new File(keyboard.nextLine());
