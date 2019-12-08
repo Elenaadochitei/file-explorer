@@ -7,7 +7,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
 
-public class Application {
+public class TuristMain {
     private static ArrayList<Destinatii> destinations;
 
     public static void main(String[] args) throws IOException {
@@ -183,7 +183,7 @@ public class Application {
                                 int rating;
                                 while (true) {
                                     System.out.println("3.Introduceti ratingul: ");
-                                     rating = keyboard.nextInt();
+                                    rating = keyboard.nextInt();
                                     if (rating <= 10) {
                                         System.out.println("Se adauga rating.");
                                         lines.add(position + 1, "\t\t\tR-" + rating);
@@ -198,7 +198,7 @@ public class Application {
                                 while (true) {
                                     try {
                                         System.out.println("4.Introduceti numarul de camere: ");
-                                         nrCamere = keyboard.nextInt();
+                                        nrCamere = keyboard.nextInt();
                                         if (b) {
                                             System.out.println("Se adauga nrCamere.");
                                             lines.add(position + 2, "\t\t\tNC-" + nrCamere);
@@ -215,7 +215,7 @@ public class Application {
                                 while (true) {
                                     try {
                                         System.out.println("5.Introduceti pretul: ");
-                                         pret = keyboard.nextInt();
+                                        pret = keyboard.nextInt();
                                         if (b) {
                                             System.out.println("Se adauga pretul.");
                                             lines.add(position + 3, "\t\t\tP-" + pret);
